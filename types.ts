@@ -17,7 +17,7 @@ export interface Asset {
 export interface User {
   name: string;
   email: string;
-  subscriptionPlan: 'Free' | 'Premium' | 'Gold';
+  subscriptionPlan: 'Free' | 'Pro' | 'Premium' | 'Gold';
   memberSince: string;
 }
 
